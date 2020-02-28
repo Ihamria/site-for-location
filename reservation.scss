@@ -1,0 +1,444 @@
+$bg : #D2D2D2;
+$left:10%;
+$top:40%;
+$cent:100%;
+$font: Montserrat,sans-serif;
+$white:white;
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    width: $cent;
+}
+header .nav {
+width: $cent;
+background-color: $bg;
+overflow-y: hidden;
+height: 100px;
+}
+header .nav .logo1{
+    margin-left: 2%;
+    padding: 1%;  
+}
+header .nav .logo2{
+    position: absolute;
+    margin-left: -14%;
+    padding: 0; 
+    margin-top: 1%; 
+}
+header .logo2:hover{
+    display:none;
+}
+header .menu li{
+    margin-top: 3%;
+    display: inline-block;
+    padding: 2%;
+}
+.menu{
+    margin-top: -11%;
+    margin-top: -6%;
+    margin-left: 75%;
+}
+header ul li a{ 
+      line-height: 61px;
+      text-decoration: none;
+      font-family: $font;
+      color: $white;
+    }
+ #res-nav{
+     display: none;
+ }
+.T {
+    border: 2px black;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
+.T h1{
+    position: absolute;
+    left: 36%;
+    margin-top: 11%;
+    color: white;
+    font-family: $font;
+    text-align: center;
+    font-size: 112px;
+}
+body .container{
+    background-color:#D2D2D2 ;
+    height: 400px;
+    width: 82%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.container .box1 {
+    background-image: url(img/mtanger.jpg);
+    background-position: center;
+    height: 400px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+.container1 .box1 {
+    background-image: url(img/mtanger1.png);
+    background-position: center;
+    height:400px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+.container2 .box1 {
+    background-image: url(img/mtanger2.jpg);
+    background-position: center;
+    height:400px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+.container3 .box1 {
+    background-image: url(img/ma.jpg);
+    background-position: center;
+    height:400px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+}
+
+.container .box2{
+    margin-top: -30%;
+}
+.container .box2 h3{
+  margin-left: 42%;
+  margin-top: -24%;
+  font-family: $font;  
+}
+.container .box2 h4{
+    margin-left: 42%;
+    margin-top: 3%;
+    color: #589147;
+    font-family: $font;  
+  }
+  .container .box2 p{
+    margin-left: 42%;
+    margin-top: 3%;
+    font-family: $font;
+    text-align: start;  
+  }
+  body .container1{
+    background-color:#D2D2D2 ;
+    height: 400px;
+    width: 82%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+body .container3{
+    background-color:#D2D2D2 ;
+    height: 400px;
+    width: 82%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.container1 .box2{
+    margin-top: -31%;
+}
+.container3 .box2{
+    margin-top: -30%;
+}
+.container3 .box2 h3{
+    margin-left: 42%;
+    margin-top: -24%;
+    font-family: $font;  
+  }
+.container1 .box2 h3{
+  margin-left: 42%;
+  margin-top: -24%;
+  font-family: $font;  
+}
+.container3 .box2 h4{
+    margin-left: 42%;
+    margin-top: 2%;
+    color: #589147;
+    font-family: $font;  
+  }
+.container1 .box2 h4{
+    margin-left: 42%;
+    margin-top: 2%;
+    color: #589147;
+    font-family: $font;  
+  }
+  .container3 .box2 p{
+    margin-left: 42%;
+    margin-top: 4%;
+    font-family: $font;
+    text-align: start;  
+  }
+  .container1 .box2 p{
+    margin-left: 42%;
+    margin-top: 4%;
+    font-family: $font;
+    text-align: start;  
+  }
+  body .container2{
+    background-color:#D2D2D2 ;
+    height: 400px;
+    width: 82%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.container2 .box2{
+    margin-top: -30%;
+}
+.container2 .box2 h3{
+  margin-left: 42%;
+  margin-top: -24%;
+  font-family: $font;  
+}
+.container2 .box2 h4{
+    margin-left: 42%;
+    margin-top: 5%;
+    color: #589147;
+    font-family: $font;  
+  }
+  .container2 .box2 p{
+    margin-left: 42%;
+    margin-top: 4%;
+    font-family: $font;
+    text-align: start;  
+  }
+  .bor{
+    height: 14%;
+    width: 45%;
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    }
+    .bor h2{
+        color: white;
+        font-family: $font;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .BTN a{
+        color: black;
+        text-decoration:none;
+    }
+.BTN{   
+        background-color:white ;
+        height: 46px;
+        width: 16%;
+        font-family: $font;
+        font-size: 18px;
+        border-radius: 60px;
+        border: transparent;
+        margin-left: 81%;
+        outline: none;
+        box-shadow: 10px 8px 7px -3px #888888;
+        margin-top: 2%;
+     
+    }
+    .BTN:active {
+        box-shadow: 10px 8px 7px -3px #484848;
+        transform: translateY(4px);
+      }
+      footer #con{
+        height: 40px;
+        width: 29%;
+        margin-left: 33%;
+        margin-top: 1%;
+        border-radius: 60px;
+        border: 1px solid ;
+        outline: none;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    footer #con:hover{
+        border: 1px solid #1800FF;
+    }
+    footer #bu{
+        background-color:#585858 ;
+        height: 40px;
+        width: 15%;
+        font-family: $font;
+        border-radius: 60px;
+        border: transparent;
+        margin-left: 40%;
+        margin-top: 1%;
+        outline: none;
+    }
+    footer .bu:hover{
+        background-color: #C8CBF3;
+    }
+    .fo{
+        display: flex;
+        flex-direction: column; 
+    }
+    .Email{
+        font-family: $font;
+        margin-left: 42%;
+        margin-top: 2%;
+    }
+    .Email h2{
+        margin-left: 3%;
+    }
+    #ff{
+        background-color: $bg;
+        width: $cent;
+        
+       
+    }
+    footer #ff h3{
+    
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+    font-family: $font;
+    padding: 1.2%;
+    }
+    #ff img{
+        position: absolute;
+        margin-left: 43%;
+        margin-top: -2.5%;
+    }
+    footer{
+        margin-top: 20%;
+        background-color: $bg;
+    }
+@media screen and (max-width: 1024px){
+    header .nav{
+        margin-top: -20%;
+    }
+    .container .box2 {
+        margin-top: -58%;
+    }  
+    .container .box1 {
+        height: 500px;
+    }
+    .container .box2 h3 {
+        margin-top: 2%;
+    }
+   
+    .container.BTN{
+        margin-top: -4%;
+    }
+    body .container{
+        height: 500px;
+        margin-top: 20%;
+    }   
+body .container1{
+    height: 500px;
+}
+.container1 .box2 {
+    margin-top: -58%;
+}  
+.container1 .box1 {
+    height: 500px;
+}
+.container1 .box2 h3 {
+    margin-top: 2%;
+}
+
+.container1 .BTN{
+    margin-top: -4%;
+}
+
+.container2 .box2 {
+    margin-top: -45%;
+}  
+
+.container2 .box2 h3 {
+    margin-top: 2%;
+}
+
+.container2.BTN{
+    margin-top: -4%;
+}
+
+.container3 .box2 {
+    margin-top: -58%;
+   
+}  
+
+.container3 .box2 h3 {
+    margin-top: 2%;
+}
+
+.container3.BTN{
+    margin-top: -4%;
+}
+header .nav .logo2 {
+    display: none; 
+     
+ }   
+ header .nav .logo1{
+     margin-left: 33%;
+     z-index: 999999;  
+ }
+ body .container3{
+     height: 500px;
+ }
+ .container3 .box1{
+    height: 500px;
+}
+ #ZZ{
+    display: none;
+     position: absolute;
+     z-index: 9999999;
+     background-color: black;
+     width: 100%;
+     margin-top: 2%;
+     margin-left: 0%;
+     position: fixed;
+ }
+ 
+ header .nav {
+     position: fixed;
+     z-index: 999999;
+    height: 100px;
+ }
+ header .menu li a{
+    display: block;
+    text-align: center;
+ }
+
+ #res-nav {
+     display: none;
+   }
+   #res-nav:checked ~ #ZZ{
+     display: block;
+   }
+   
+   header .menu li{
+       display: block;
+       
+   }
+   #ff{
+    margin-left: 0%; 
+    margin-top: 10%;
+}
+#ff img{
+    margin-left: 37%;
+    margin-top: -4%;
+}
+.Email h3{
+margin-left: -8%;
+position:absolute ;
+}
+.Email h2{
+   margin-top: 4%;
+   margin-left: -5%;
+   position: absolute;
+}
+.bor{
+    overflow-y: hidden;
+}
+}
+
+

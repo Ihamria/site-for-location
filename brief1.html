@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="brief1.css">
+<header>
+  <div class="nav">
+           <label for="res-nav">  <img src="img\myhouse2.png" height="50px" width="200px" class="logo1"></img></label>
+           <input type="checkbox" id="res-nav">
+                    <img src="img\myhouse.png" height="50px" width="200px" class="logo2"></img>
+  
+   <ul class="menu" id="ZZ">
+                  <li><a href="brief.html">Galerie</a></li>
+                  <li><a href="reservation.html">Reservation</a></li>
+                  <li><a href="inscription.html">Inscription</a></li>
+                </ul>             </div>
+</header>
+<body>
+    <script  type="text/javascript" src="brief1.js">
+   
+    </script>
+    <form >
+        <div class="for">
+            <label for="Nom">Nom :</label>
+            <input type="text" id="name" class="in" onkeyup="this.value=this.value.toUpperCase()">
+           </div>
+<div class="for">
+    <label for="Prenom">Prenom:</label>
+    <input type="text" id="Prenom" class="in" onkeyup="this.value=this.value.toUpperCase()">
+   </div>
+   <div class="for">
+    <label for="E-mail">E-mail</label>
+        <input type="text" class="in" id="mail" onkeyup="this.value=this.value.toUpperCase()">
+       </div>
+   <div class="for">
+    <label for="Date">Date de Départ:</label>
+    <input type="date" class="in" id="date1">
+   </div>
+   <div class="for">
+    <label for="Date">Date de Retour:</label>
+    <input type="date" class="in" id="date2">
+   </div>
+   <div class="for">
+    <label for="Date">NB de personne :</label>
+    <input type="number"  min="1" max="10" value="0" class="in" >
+   </div>
+   <input type="submit" value="Reserver" id="btn" onclick="validation();">
+    </form>
+    </body>
+    <footer>
+        <div class="fo">
+          <input type="text" id="con" placeholder="Entrer votre message">
+          <button type="submit" id="bu" onclick="myfunction();" >Envoyer</button>
+        </div>
+        <div class="Email">
+        <h3>Myhouse@gmail.com <br><br></h3>
+         <h2>0577123456</h2>
+    </div>
+    <div id="ff">
+        <h3>My house 2020</h3>
+        <img src="img/Icon material-copyright.png" height="18px" width="2.2%">
+        
+    </div>
+        </footer>
+</html>

@@ -1,0 +1,262 @@
+$bg : #D2D2D2;
+$left:10%;
+$top:40%;
+$cent:100%;
+$font: Montserrat,sans-serif;
+$white:white;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: $cent;
+}
+header .nav {
+width: $cent;
+background-color: $bg;
+overflow-y: hidden;
+height: 100px;
+}
+header .nav .logo1{
+    margin-left: 2%;
+    padding: 1%;  
+}
+header .nav .logo2{
+    position: absolute;
+    margin-left: -14%;
+    padding: 0; 
+    margin-top: 1%; 
+}
+header .logo2:hover{
+    display:none;
+}
+header .menu li{
+    margin-top: 3%;
+    display: inline-block;
+    padding: 2%;
+}
+.menu{
+    margin-top: -11%;
+    margin-top: -6%;
+    margin-left: 75%;
+}
+header ul li a{ 
+      line-height: 61px;
+      text-decoration: none;
+      font-family: $font;
+      color: $white;
+    }
+ #res-nav{
+     display: none;
+ }
+.for label{
+    font-family: $font;
+    position: absolute;
+    left: 36%;
+}
+.for .in{
+        height: 40px;
+        width: 35%;
+        border: 1px solid black;
+        border-radius: 60px ; 
+        outline: none;
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 33%;
+    }
+.for{
+    margin-top: 4%;
+}
+#in1 label{
+    margin-left: 0%;
+}
+#btn{
+    background-color:rgb(88, 88, 88) ;
+    height: 51px;
+    width: 29%;
+    font-family: $font;
+    font-size: 18px;
+    border-radius: 60px;
+    border: transparent;
+    margin-left: 70%;
+    outline: none;
+    box-shadow: 10px 8px 7px -3px #888888;
+    margin-top: 5%;
+    position: absolute;
+    color: white;
+    margin-left: 36%;
+}
+#b{
+    background-color:rgb(88, 88, 88) ;
+    height: 51px;
+    width: 29%;
+    font-family: $font;
+    font-size: 18px;
+    border-radius: 60px;
+    border: transparent;
+    margin-left: 70%;
+    outline: none;
+    box-shadow: 10px 8px 7px -3px #888888;
+    margin-top: 10%;
+    position: absolute;
+    color: white;
+    margin-left: 36%;   
+
+}
+#b a{
+    text-decoration: none;
+    color: white;
+}
+#btn:active {
+    box-shadow: 10px 8px 7px -3px #484848;
+    transform: translateY(4px);
+  }
+  #date{
+ 
+    top: 12%;
+    left: 31%; 
+    width: 84%;
+  }
+  #date label{
+      margin-left:-19%;
+  }
+  footer #con{
+    height: 40px;
+    width: 29%;
+    margin-left: 33%;
+    margin-top: 1%;
+    border-radius: 60px;
+    border: 1px solid ;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer #con:hover{
+    border: 1px solid #1800FF;
+}
+footer #bu{
+    background-color:#585858 ;
+    height: 40px;
+    width: 15%;
+    font-family: $font;
+    border-radius: 60px;
+    border: transparent;
+    margin-left: 40%;
+    margin-top: 1%;
+    outline: none;
+}
+footer .bu:hover{
+    background-color: #C8CBF3;
+}
+.fo{
+    display: flex;
+    flex-direction: column; 
+}
+.Email{
+    font-family: $font;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+.Email h2{
+    margin-left: 3%;
+}
+#ff{
+    background-color: $bg;
+    width: $cent;
+    
+   
+}
+footer #ff h3{
+
+margin-top: 2%;
+color: white;
+text-align: center;
+font-family: $font;
+padding: 1.2%;
+}
+#ff img{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -2.5%;
+}
+footer{
+    margin-top: 20%;
+    background-color: $bg;
+}
+@media screen and (max-width: 1024px) {
+    header .nav .logo2 {
+        display: none; 
+         
+     }   
+     header .nav .logo1{
+         margin-left: 33%;
+         z-index: 999999;  
+     }
+     #ZZ{
+        display: none;
+         position: absolute;
+         z-index: 9999999;
+         background-color: black;
+         width: 100%;
+         margin-top: 2%;
+         margin-left: 0%;
+         position: fixed;
+     }
+     
+     header .nav {
+         position: fixed;
+         z-index: 999999;
+        height: 100px;
+        margin-top: -4%;
+     }
+     header .menu li a{
+        display: block;
+        text-align: center;
+     }
+   
+     #res-nav {
+         display: none;
+       }
+       #res-nav:checked ~ #ZZ{
+         display: block;
+       }
+       
+       header .menu li{
+           display: block;
+           
+       }
+       footer{
+           margin-top: 39.6%;
+       }
+       #ff{
+        margin-left: 0%; 
+        margin-top: 10%;
+    }
+    #ff img{
+        margin-left: 37%;
+        margin-top: -4%;
+    }
+   .Email h3{
+  margin-left: -8%;
+  position:absolute ;
+   }
+   .Email h2{
+       margin-top: 6%;
+       margin-left: -8%;
+       position: absolute;
+   }
+   .for .in{
+       margin-top: 15%;
+   }
+   #in1 label{
+       margin-top: 11%;
+   }
+   #Z{
+       margin-top: -7%;
+   }
+ #b{
+     margin-top: 15%;
+ }
+}

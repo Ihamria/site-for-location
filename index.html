@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="brief.css">
+<header>
+  <div class="nav">
+           <label for="res-nav">  <img src="img\myhouse2.png" height="50px" width="200px" class="logo1"></img></label>
+           <input type="checkbox" id="res-nav">
+                    <img src="img\myhouse.png" height="50px" width="200px" class="logo2"></img>
+  
+   <ul class="menu" id="ZZ">
+                  <li><a href="brief.html">Galerie</a></li>
+                  <li><a href="reservation.html">Reservation</a></li>
+                  <li><a href="inscription.html">Inscription</a></li>
+                </ul>             </div>
+   
+    <div class="slides">
+        <div id="slide1">
+            <img src="img/1.jpg">
+        </div>
+        <img src="img/right.png" onclick="prewImage()" id="bt1">
+        <img src="img/Icon awesome-angle-double-left.png" onclick="nextImage()" id="bt2">
+       </div>
+</header>
+<body>
+    <script type="text/javascript">
+
+        var slider_content = document.getElementById('slide1');
+        var image = ['img/2','img/3', 'img/4',' img/5'];
+        var i = image.length;
+       function nextImage(){
+          if (i<image.length) {
+              i= i+1;
+          }else{
+              i = 1;
+          }
+            slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+      }
+      function prewImage(){
+  
+          if (i<image.length+1 && i>1) {
+              i= i-1;
+          }else{
+              i = image.length;
+          }
+            slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+  
+      }
+      function myfunction(){
+    var text= document.getElementById("con").value;
+    if (text == ""){
+        alert("tu doit remplir tous les champs possible");
+    }
+    else{
+        if(validname(text)){
+            alert('La forme bien valide');
+        }else
+    if(!validname(text)){
+      alert('La forme nest pas valide');
+    }
+        }
+    }
+    function validname(text){
+                var letters =/^[A-Za-z-0-9 ]+$/;
+                
+
+                if(letters.test(text)==true){
+                       return true;
+                   }
+               else{
+                    return false;  
+                   }
+                }
+
+
+
+      </script>
+    <div class="container">
+      
+        <div class="box">
+        <img src="img\ph.jpg" width="80%" height="350px"  class="box11">
+    </div>
+<div class="box1">
+    <div class="blank"><img src="img\ph1.jpg" width="40%" height="500px" class="box11" id="im"></div>
+    <div class="blank"><img src="img\ph2.jpg" width="40%" height="400px"  class="box11" id="im"></div>
+   </div>
+<div class="box2">
+    <div class="blank"><img src="img\ph3.jpg" width="71.5%" height="600px"   class="box11" id="im"></div>
+    <div class="blank"><img src="img\ph4.jpg" width="71.5%" height="308px"  class="box11" id="im"></div>
+</div>
+<div class="blank"><img src="img\ph5.jpg" width="80%" height="350px"  class="box11" ></div>
+    </div>
+ 
+</body>
+<footer>
+    <div class="fo">
+      <input type="text" id="con" placeholder="Entrer votre message">
+      <button type="submit" id="bu" onclick="myfunction();" >Envoyer</button>
+    </div>
+    <div class="Email">
+    <h3>Myhouse@gmail.com <br><br></h3>
+     <h2>0577123456</h2>
+</div>
+<div id="ff">
+    <h3>My house 2020</h3>
+    <img src="img/Icon material-copyright.png" height="18px" width="2.2%">
+    
+</div>
+    </footer>
+
+</html>

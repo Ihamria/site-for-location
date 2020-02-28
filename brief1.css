@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+header .nav {
+  width: 100%;
+  background-color: #D2D2D2;
+  overflow-y: hidden;
+  height: 100px;
+}
+
+header .nav .logo1 {
+  margin-left: 2%;
+  padding: 1%;
+}
+
+header .nav .logo2 {
+  position: absolute;
+  margin-left: -14%;
+  padding: 0;
+  margin-top: 1%;
+}
+
+header .logo2:hover {
+  display: none;
+}
+
+header .menu li {
+  margin-top: 3%;
+  display: inline-block;
+  padding: 2%;
+}
+
+.menu {
+  margin-top: -11%;
+  margin-top: -6%;
+  margin-left: 75%;
+}
+
+header ul li a {
+  line-height: 61px;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
+#res-nav {
+  display: none;
+}
+
+.for label {
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  left: 36%;
+  margin-top: 5%;
+}
+
+.for .in {
+  height: 40px;
+  width: 35%;
+  border: 1px solid black;
+  border-radius: 60px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 33%;
+}
+
+#in1 label {
+  margin-left: 40%;
+}
+
+#btn {
+  background-color: #585858;
+  height: 51px;
+  width: 29%;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  border-radius: 60px;
+  border: transparent;
+  margin-left: 70%;
+  outline: none;
+  -webkit-box-shadow: 10px 8px 7px -3px #888888;
+          box-shadow: 10px 8px 7px -3px #888888;
+  margin-top: 5%;
+  position: absolute;
+  color: white;
+  margin-left: 36%;
+}
+
+#btn:active {
+  -webkit-box-shadow: 10px 8px 7px -3px #484848;
+          box-shadow: 10px 8px 7px -3px #484848;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+#date {
+  top: 12%;
+  left: 31%;
+  width: 84%;
+}
+
+#date label {
+  margin-left: -19%;
+}
+
+footer #con {
+  height: 40px;
+  width: 29%;
+  margin-left: 33%;
+  margin-top: 1%;
+  border-radius: 60px;
+  border: 1px solid;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+footer #con:hover {
+  border: 1px solid #1800FF;
+}
+
+footer #bu {
+  background-color: #585858;
+  height: 40px;
+  width: 15%;
+  font-family: Montserrat, sans-serif;
+  border-radius: 60px;
+  border: transparent;
+  margin-left: 40%;
+  margin-top: 1%;
+  outline: none;
+}
+
+footer .bu:hover {
+  background-color: #C8CBF3;
+}
+
+.fo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Email {
+  font-family: Montserrat, sans-serif;
+  margin-left: 42%;
+  margin-top: 2%;
+}
+
+.Email h2 {
+  margin-left: 3%;
+}
+
+#ff {
+  background-color: #D2D2D2;
+  width: 100%;
+}
+
+footer #ff h3 {
+  margin-top: 2%;
+  color: white;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  padding: 1.2%;
+}
+
+#ff img {
+  position: absolute;
+  margin-left: 43%;
+  margin-top: -2.5%;
+}
+
+footer {
+  margin-top: 20%;
+  background-color: #D2D2D2;
+}
+
+@media screen and (max-width: 1024px) {
+  header .nav .logo2 {
+    display: none;
+  }
+  header .nav .logo1 {
+    margin-left: 33%;
+    z-index: 999999;
+  }
+  #ZZ {
+    display: none;
+    position: absolute;
+    z-index: 9999999;
+    background-color: black;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 0%;
+    position: fixed;
+  }
+  header .nav {
+    position: fixed;
+    z-index: 999999;
+    height: 100px;
+    margin-top: -4%;
+  }
+  header .menu li a {
+    display: block;
+    text-align: center;
+  }
+  #res-nav {
+    display: none;
+  }
+  #res-nav:checked ~ #ZZ {
+    display: block;
+  }
+  .for {
+    margin-top: 0%;
+  }
+  .for label {
+    margin-top: 3%;
+  }
+  header .nav {
+    margin-top: 0%;
+  }
+  header .menu li {
+    display: block;
+  }
+  #ff {
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  #ff img {
+    margin-left: 37%;
+    margin-top: -4%;
+  }
+  .Email h3 {
+    margin-left: -8%;
+    position: absolute;
+  }
+  .Email h2 {
+    margin-top: 6%;
+    margin-left: -8%;
+    position: absolute;
+  }
+  #X {
+    margin-top: 2%;
+  }
+}
+/*# sourceMappingURL=brief1.css.map */
